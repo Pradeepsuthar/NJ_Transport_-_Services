@@ -586,13 +586,7 @@ i:before {
 }
 
 .home_slider .rev_slider .tp-bullet {
-  border-radius: 50%;
-  background: #fff;
-  opacity: .35;
-}
-
-.home_slider .rev_slider .tp-bullet.selected {
-  opacity: 1;
+  display: none;
 }
 
 .home_slider .social_icon {
@@ -4842,3 +4836,18 @@ label {
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*# sourceMappingURL=style.css.map */
+
+.text-primary{
+  color: #2B933B !important;
+  font-size: 70px !important;
+}
+.top_header_text{
+   font-size: 24px !important;
+  line-height: 30px !important;
+  font-family: "Heebo", sans-serif !important;
+  color: #fff !important;
+  /* max-width: 400px !important; */
+  font-weight: lighter !important;
+  margin-top: 20px !important;
+  margin-bottom: 50px !important;
+}
